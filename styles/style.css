@@ -179,3 +179,12 @@ h2 { font-size: 2.2rem; margin-bottom: 1.5rem; }
 .link { display: flex; flex-direction: column; transition: transform .25s, border-color .25s; }
 .link:hover { transform: translateX(6px); border-color: var(--accent); }
 .link span { color: var(--muted); font-size: .9rem; }
+
+/* ---------- 11. FOOTER ---------- */
+.footer { margin-top: 4rem; border-top: 1px solid var(--border); background: rgba(5,11,31,.8); }
+.footer-grid { display: grid; grid-template-columns: 1.3fr 1fr auto; gap: 2rem; padding: 3rem 0 1.5rem; align-items: start; }
+.footer-nav { display: grid; grid-template-columns: repeat(2, auto); gap: .3rem 1.5rem; justify-content: start; }
+.footer-nav a { color: var(--muted); }
+.footer-nav a:hover { color: var(--text); }
+.footer .find-me { margin-top: 0; }
+.footer-bottom { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0 2rem; color: var(--muted); font-size: .85rem; border-top: 1px solid var(--border); }
