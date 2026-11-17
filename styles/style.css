@@ -141,3 +141,10 @@ h2 { font-size: 2.2rem; margin-bottom: 1.5rem; }
 .stats div { background: rgba(47,107,255,.1); border: 1px solid var(--border); border-radius: 12px; padding: .8rem; text-align: center; }
 .stats b { display: block; font-family: var(--font-head); font-size: 1.8rem; }
 .stats span { color: var(--muted); font-size: .85rem; }
+
+/* ---------- 7. SKILLS ---------- */
+.skill { padding: 1.4rem; }
+.skill p { color: var(--muted); font-size: .9rem; margin: .3rem 0 1rem; }
+.bar { height: 8px; background: #121f45; border-radius: 99px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), var(--glow)); border-radius: 99px; }
+.skill small { color: var(--muted); display: block; margin-top: .5rem; }
